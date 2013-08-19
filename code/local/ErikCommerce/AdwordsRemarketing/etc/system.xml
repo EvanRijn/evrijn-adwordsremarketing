@@ -7,7 +7,7 @@
         </evrijn>
     </tabs>
 	<sections>
-        	<evrijn translate="label" module="AdwordsRemarketing">
+        	<evrijn translate="label">
             <label>Adwords Remarketing Options</label>
             <tab>evrijn</tab>
             <sort_order>1985</sort_order>
@@ -15,7 +15,7 @@
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             		<groups>
-                	<evrijn_group translate="label" module="mymodule">
+                	<evrijn_group translate="label">
                     <label>Options</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
