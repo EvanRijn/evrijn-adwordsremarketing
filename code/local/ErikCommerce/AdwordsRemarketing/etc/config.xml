@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ErikCommerce_AdwordsRemarketing>
+            <version>0.0.1</version>
+        </ErikCommerce_AdwordsRemarketing>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <erikcommerce_adwordsremarketing>
+                    <file>erikcommerce_adwordsremarketing.xml</file>
+                </erikcommerce_adwordsremarketing>
+            </updates>
+        </layout>
+    </frontend>
+</config>
