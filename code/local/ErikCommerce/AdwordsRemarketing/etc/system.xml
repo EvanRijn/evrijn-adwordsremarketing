@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <evrijn>
+            <label>Erik Commerce</label>
+            <sort_order>1985</sort_order>
+        </evrijn>
+    </tabs>
+	<sections>
+        	<evrijn translate="label" module="AdwordsRemarketing">
+            <label>Adwords Remarketing Options</label>
+            <tab>evrijn</tab>
+            <sort_order>1985</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            		<groups>
+                	<evrijn_group translate="label" module="mymodule">
+                    <label>Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                    	  <evrijn_select translate="label">
+                            <label>On / Off: </label>
+                            <comment>Switch</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </evrijn_select>
+                        <evrijn_input translate="label">
+                            <label>google_conversion_id: </label>
+                            <comment>Adwords ID</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </evrijn_input>
+                    </fields>
+               		 </evrijn_group>
+           		 </groups>
+        	</evrijn>
+	</sections>
+</config>
+
+
