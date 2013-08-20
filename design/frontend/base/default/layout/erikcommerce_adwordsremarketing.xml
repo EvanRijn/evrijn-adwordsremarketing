@@ -3,7 +3,7 @@
     <default>
     <catalog_product_view>
         <reference name="footer">
-            <block type="core/template" name="adwords_remarketing">
+            <block  type="core/template" name="adwords_remarketing">
                 <action method="setTemplate">
                     <template>evr/adwords.phtml</template>
                 </action>

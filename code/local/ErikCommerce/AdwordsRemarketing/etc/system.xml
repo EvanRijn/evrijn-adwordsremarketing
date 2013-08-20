@@ -23,19 +23,19 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                    	  <evrijn_select translate="label">
-                            <label>On / Off: </label>
-                            <comment>Switch</comment>
+                    	  <enable translate="label">
+                            <label>Switch On / Off: </label>
+                            <comment></comment>
                             <frontend_type>select</frontend_type>
                             <sort_order>90</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                        </evrijn_select>
+			    <source_model>adminhtml/system_config_source_enabledisable</source_model>                     
+                        </enable>
                         <evrijn_input translate="label">
-                            <label>google_conversion_id: </label>
-                            <comment>Adwords ID</comment>
+                            <label>Conversion ID</label>
+                            <comment>The unique number that's specific to your AdWords account</comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
