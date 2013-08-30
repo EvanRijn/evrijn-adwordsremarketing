@@ -6,7 +6,7 @@ $_product = Mage::registry('current_product');
 var google_tag_params = { 
 ecomm_prodid: '<?=$_product->getSku()?>',
 ecomm_pagetype: 'product',
-ecomm_totalvalue: '<?=Mage::helper('core')->currency($_product->getFinalPrice(),true,false);?>',
+ecomm_totalvalue: '<? echo number_format($_product->getPrice(), 2) ?>'};
 };
 </script>
 <script type="text/javascript">
